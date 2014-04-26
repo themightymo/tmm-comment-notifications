@@ -3,7 +3,7 @@
 Plugin Name: Comment Notifications by The Mighty Mo! Design Co.
 Plugin URI: http://www.themightymo.com
 Description: Send comment notifications to specific users for EVERY comment that is posted on a site or sub-site. Uses Advanced Custom Fields. Multi-site ready!
-Author: themightymo
+Author: Sherwin Calims
 Author URI: http://www.themightymo.com
 Version: 0.1
 Text Domain: tmm-comment-notifications
