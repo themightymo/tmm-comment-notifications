@@ -41,15 +41,12 @@ function notify_author_of_reply($comment_id, $approved){
 }
 
 /** changing default wordpres email settings */
- 
 add_filter( 'wp_mail_from_name', 'custom_wp_mail_from_name' );
-function custom_wp_mail_from_name( $original_email_from )
-{
+function custom_wp_mail_from_name( $original_email_from ) {
 	return get_bloginfo('name');
 }
 add_filter( 'wp_mail_from', 'custom_wp_mail_from' );
-function custom_wp_mail_from( $original_email_address )
-{
+function custom_wp_mail_from( $original_email_address ) {
 	//Make sure the email is from the same domain 
 	//as your website to avoid being marked as spam.
 	return 'donotreply@mightylucy.com';
